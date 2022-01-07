@@ -60,7 +60,6 @@ text-decoration: none;
 
 
 h4 {
-
   align-items: center;
 }
 
@@ -73,8 +72,6 @@ h4 {
   margin-top: 0%;
   justify-content: center;
   height: 50%;
-  
-  
 }
 
 .info {
@@ -86,7 +83,6 @@ h4 {
   background-color: #404342;
   
   flex-wrap: wrap;
-
 }
 
 .user img {
@@ -130,7 +126,6 @@ h4 {
   color: rgb(217, 222, 223);
 } 
 
-
 .heading{
   text-align: center;
   
@@ -148,11 +143,7 @@ h4 {
   color: #000;
   text-decoration: none;
   margin-top: 0%;
-
 }
-
-
-
 
 .tile {
   text-align: left;
@@ -162,7 +153,6 @@ h4 {
   
   color: #000;
   text-decoration: none;
-
 }
 
 .about {
@@ -175,7 +165,6 @@ h4 {
 
   flex-wrap: wrap;
 }
-
 
 .extra {
   float: right;
@@ -194,16 +183,15 @@ h4 {
 @media only screen and (min-height: 550px) {
   .extra {
 
-    min-height: 50vh;
-    
-  
+    min-height: 70vh;
+      
   }
 
 }
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 950px) {
 
   .user {
     float: none;
