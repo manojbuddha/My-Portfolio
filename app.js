@@ -30,14 +30,14 @@ window.onscroll = () => {
   links.forEach(link => {
    /* link.classList.remove("active")*/
 
-   if (current==="section1"){
+   if (current==="projects"){
     link.classList.remove("active")
     if(link.getAttribute('name') === 'projects'){
       link.classList.add("active");
     }
   }
 
-  else if (current==="section2"){
+  else if (current==="about"){
     link.classList.remove("active")
     if(link.getAttribute('name') === 'about'){
       link.classList.add("active");
