@@ -1,0 +1,72 @@
+.navbar-bg{
+    background-color: #3B4C79;
+}
+.header-name{
+    color:#3B4C79;
+}
+.header-bg{
+background-color: white;
+}
+.nav-link{
+    color:white;
+}
+.avatar{
+  border:none;
+}
+.avatar > img{
+  width:25rem;
+  border-radius:50%;
+  border:2px solid black;
+}
+.main{
+  text-align: center;
+  margin: 0 auto
+}
+.id-heading{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color:#3B4C79;
+  }
+  .experience-nav{
+    height:auto;
+    border-left:5px solid #3B4C79;
+  }
+  .experience-nav li{
+    list-style-type: none;
+  }
+  .experience-nav a:hover{
+    cursor: pointer;
+    color:#3B4C79;
+  }
+  .experience-info{
+    width:70%;
+    height:auto;
+    text-align:justify;
+    padding:20px;
+  }
+  .info-tcs{
+    display: block;
+  }
+  .info-gmu1{
+    display: none;
+  }
+  .info-gmu2{
+    display: none;
+  }
+  .info-intern{
+    display: none;
+  }    
+  .edu-avatar{
+    object-fit: contain;
+  }
+  footer{
+    background-color: #aab5d5;
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    padding:40px;
+  }
+ 
