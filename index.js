@@ -84,6 +84,6 @@ glicDisplay()
 const resume = document.getElementById('resume');
 resume.addEventListener('click',resumefile);
 function resumefile() {
-    window.location.href="https://drive.google.com/file/d/1T8fkB8dddEgJ5-I52J_Jl7xJZhLIbu0C/view?usp=drive_link";
+    window.location.href="https://drive.google.com/file/d/1bHNt3rTnR4KUOtY4f7LZgezzv8nKZ4Ot/view?usp=drive_link";
     console.log('okay');
 }
